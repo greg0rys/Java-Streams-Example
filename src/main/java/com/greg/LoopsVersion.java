@@ -15,6 +15,10 @@ public class LoopsVersion extends NameList
     }
 
 
+    /**
+     * The extra step that the Stream version doesn't have!
+     * Go through the list and fill the map.
+     */
     private void countNames()
     {
 

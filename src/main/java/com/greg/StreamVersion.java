@@ -10,10 +10,10 @@ public class StreamVersion extends NameList
     public StreamVersion(List<String> nameData)
     {
         super(nameData.isEmpty() ? new ArrayList<>() : nameData);
-        streamData();
+        countStream();
     }
 
-    private void streamData()
+    private void countStream()
     {
         if(NAMES.isEmpty()) return;
 
@@ -28,8 +28,8 @@ public class StreamVersion extends NameList
     {
         if(NAMES.isEmpty())
         {
-            System.out.println("NO NAMES TO DISPLAY"); // prevent errors fr
-            return; // l8r g8r
+            System.out.println("NO NAMES TO DISPLAY");
+            return;
         }
         System.out.printf("%-20s %-10s\n", "Name", "Count");
         System.out.println("--------------------------");

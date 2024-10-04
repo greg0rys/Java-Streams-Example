@@ -21,23 +21,6 @@ public class Main {
         loopsVersion.display();
 
 
-//        List<String> namesF = names.stream()
-//                .filter(name -> name.startsWith("L"))
-//                .map(String::toUpperCase)
-//                .distinct()
-//                .toList();
-//
-//        System.out.println("There are " + namesF.size() + " names that start with the letter L");
-//        namesF.forEach(System.out::println);
-
-        // Count occurrences of each name
-//        Map<String, Long> nameCounts = NAMES.stream()
-//                .collect(Collectors.groupingBy(name -> name, Collectors.counting()));
-//
-//        // Print the counts in a table format
-//        System.out.printf("%-20s %-10s\n", "Name", "Count");
-//        System.out.println("-------------------------");
-//        nameCounts.forEach((name, count) -> System.out.printf("%-20s => %-10d\n", name, count));
     }
 
     public static  void parseNames() throws Exception
