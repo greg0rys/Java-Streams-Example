@@ -5,67 +5,28 @@ import com.greg.Model.Order;
 import com.greg.Model.Product;
 import com.greg.Model.User;
 import com.greg.Sorting.LoopsVersion;
-import com.greg.Sorting.StreamVersion;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
 public class Main {
-    private static final List<String> NAMES = new ArrayList<>();
+    private static final List<String> NAMES = Parser.parseNames();
     private static final Streamer S = new Streamer();
-
-    public static void main(String[] args) throws Exception {
-
-        NAMES.addAll(Parser.parseNames());
-
-        // an instance where a loop preforms better than a Stream. e.g. the stream was mad overkill
-        StreamVersion streamsVersion = new StreamVersion(NAMES);
-        LoopsVersion loopsVersion = new LoopsVersion(NAMES);
-
-        List<Order> orders = Parser.parseOrders();
-        List<Product> products = Parser.parseProdcuts();
-        List<User> users = Parser.parseUsers();
-//
-//        System.out.println();
-//
-//        streamsVersion.printStats(
-//                loopsVersion.getLoopsTime(),
-//                streamsVersion.getStreamsTime()
-//        );
-//
-//
-//        for(User user : users)
-//            System.out.println(user);
-//
-//        System.out.println();
-//
-//        for(Order o : orders)
-//            System.out.println(o);
-//
-//        System.out.println();
-//
-//        for(Product p : products)
-//            System.out.println(p);
-//
-//        for(int i = 0; i <=1; i++)
-//            System.out.println();
-//
-        S.matchOrders(orders, users);
-        S.orderProducts(products);
+    private static final LoopsVersion LV = new LoopsVersion(NAMES);
+    private static final List<Product> PRODUCT = Parser.parseProdcuts();
+    private static final List<User> USERS = Parser.parseUsers();
+    private static final List<Order> ORDERS = Parser.parseOrders();
 
 
+    public static void main(String[] args)
+    {
+
+        S.matchOrders(ORDERS, USERS); // use a stream to filter
+        LV.matchOrders(ORDERS, USERS); // use a loop to filter
 
     }
 
-//    public static  void parseNames() throws Exception
-//    {
-//        try (CSVReader reader = new CSVReader(new FileReader(CSV_PATH)))
-//        {
-//            String[] line;
-//
-//            while ((line = reader.readNext()) != null)
-//                NAMES.add(line[0]);
-//        }
-//    }
+
 }
+
+

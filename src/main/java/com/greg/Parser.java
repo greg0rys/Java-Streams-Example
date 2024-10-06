@@ -37,9 +37,16 @@ public class Parser
         try (CSVReader reader = new CSVReader(new FileReader(NAMES_CSV_PATH)))
         {
             String[] line;
+            int counter = 0;
 
             while ((line = reader.readNext()) != null)
+            {
+                if(counter >= 25)
+                    break;
                 NAMES.add(line[0]);
+                counter++;
+            }
+//                NAMES.add(line[0]);
 
         } catch (CsvValidationException | IOException e) {
             throw new RuntimeException(e);
