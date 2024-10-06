@@ -1,3 +1,8 @@
+
+![Profiled Run](src/images/profiled-run-v1.gif)
+
+---
+
 **Author:** [Greg Shenefelt](https://linkedin.com/in/greg-shenefelt) - **Date:** 10/5/24 _📧 [Email Me](mailto:greg@shenefelt.net)_
 
 ---
