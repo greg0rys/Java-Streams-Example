@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 public class Streamer
 {
+    private static final int MAX_OUTPUT = 25;
     private long filterTime = 0;
     private long printTime = 0;
     private long start, end;
@@ -20,33 +21,36 @@ public class Streamer
     public void matchOrders(List<Order> o, List<User> u)
     {
         // keep the trackers clear each call.
-        start = 0;
-        end = 0;
+        AtomicInteger outputCounter = new AtomicInteger(0);
 
-        start = currentTime();
         Map<User, List<Order>> orderedMap = u.stream().collect(Collectors.toMap(
                 user -> user,
                 user -> o.stream().filter(order -> order.getUserID() == user.getUserID()).collect(Collectors.toList())
         ));
-        end = currentTime();
-        filterTime = getTimeDiff(end, start);
 
+        orderedMap.forEach((user, userOrders) -> processAndPrintUserOrders(user, userOrders, outputCounter));
 
-        start = currentTime();
-        orderedMap.forEach((user, userOrders) -> {
-            if(userOrders.isEmpty()) return; // if the user doesn't have any orders skip them.
+    }
 
-            System.out.println(" User: " + user.getName() + " has the orders");
-            userOrders.forEach(order -> System.out.println(" \tOrder: { Order ID: " + order.getOrderID() + " }"));
-            System.out.println();
-        });
-        end = currentTime();
-        printTime = getTimeDiff(end, start);
+    private void processAndPrintUserOrders(User user, List<Order> userOrders, AtomicInteger outputCounter) {
+        if(userOrders.isEmpty() || outputCounter.get() >= MAX_OUTPUT) {
+            return;
+        }
 
-        System.out.println();
-        System.out.println("Filtering Users & Orders => " + filterTime + " milliseconds\n\tNumber of Filtered Items => " + (o.size() + u.size()));
-        System.out.println("Printing Filtered Map => " + printTime + " milliseconds");
+        outputCounter.getAndIncrement();
+        printUserAndOrders(user, userOrders);
+    }
 
+    private void printUserAndOrders(User user, List<Order> userOrders) {
+        StringBuilder output = new StringBuilder(" User: ")
+                .append(user.getName())
+                .append(" has the orders\n");
+
+        userOrders.forEach(order -> output.append("\tOrder: { Order ID: ")
+                .append(order.getOrderID())
+                .append(" }\n"));
+
+        System.out.println(output);
     }
 
     public void orderProducts(List<Product> P)
@@ -77,7 +81,7 @@ public class Streamer
 
         });
 
-        System.out.println("\nSTATS => { " + P.size() + " Products took " + filterTime + " milliseconds to process }");
+//        System.out.println("\nSTATS => { " + P.size() + " Products took " + filterTime + " milliseconds to process }");
     }
 
 
