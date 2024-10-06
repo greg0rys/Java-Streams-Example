@@ -1,0 +1,511 @@
+product_id,product_name,category,price,stock
+1,Laptop,Electronics,999.99,50
+2,Smartphone,Electronics,699.99,100
+3,Headphones,Electronics,199.99,150
+4,Blender,Home Appliances,49.99,200
+5,Microwave,Home Appliances,89.99,80
+6,T-shirt,Clothing,15.99,300
+7,Jeans,Clothing,39.99,200
+8,Coffee Maker,Home Appliances,79.99,50
+9,Desk Chair,Furniture,129.99,40
+10,Dining Table,Furniture,399.99,15
+11,Action Expect,Electronics,154.04,103
+12,Evening Talk,Furniture,263.11,60
+13,Quality Citizen,Sports,594.35,46
+14,People Measure,Sports,532.01,95
+15,Home Subject,Sports,802.88,100
+16,Tend Local,Sports,433.82,99
+17,Environment Oil,Sports,868.91,70
+18,To Low,Electronics,651.61,21
+19,Happy Parent,Clothing,548.25,156
+20,Cultural View,Electronics,127.54,162
+21,Detail Deal,Sports,963.35,21
+22,According Piece,Furniture,733.7,200
+23,Among Which,Home Appliances,264.54,119
+24,Outside Industry,Home Appliances,129.64,29
+25,Language Significant,Electronics,717.38,96
+26,Child Own,Sports,32.31,99
+27,Page Receive,Electronics,206.83,50
+28,Recent Nation,Sports,379.95,187
+29,Television Crime,Sports,682.93,125
+30,Here Where,Clothing,860.35,61
+31,Dream With,Home Appliances,267.81,20
+32,Including Will,Furniture,864.43,28
+33,Arrive Yard,Electronics,559.65,48
+34,Place Civil,Sports,666.77,56
+35,Little Responsibility,Home Appliances,829.37,184
+36,Half Quite,Sports,108.95,68
+37,Party Finally,Clothing,300.91,137
+38,Low Especially,Electronics,619.04,31
+39,Among Manager,Furniture,744.58,18
+40,Toward Sell,Clothing,782.82,159
+41,Rest Follow,Clothing,327.77,167
+42,Toward Across,Sports,244.41,183
+43,Take Year,Home Appliances,35.72,48
+44,Girl Role,Furniture,148.69,171
+45,Another Effort,Sports,276.84,83
+46,Trial Floor,Electronics,499.78,46
+47,Particular Throughout,Home Appliances,562.08,126
+48,Reality After,Electronics,121.95,73
+49,Speak Cold,Electronics,626.19,130
+50,Seat Clear,Furniture,473.57,17
+51,Feel Structure,Furniture,302.37,23
+52,Mention Bank,Furniture,106.06,64
+53,Give Situation,Clothing,913.43,43
+54,Clear Available,Furniture,676.42,28
+55,High Standard,Furniture,435.56,156
+56,Return Poor,Clothing,488.5,38
+57,Particular Cell,Clothing,235.39,181
+58,Government Do,Electronics,881.2,159
+59,Without Spend,Furniture,380.32,35
+60,Participant Require,Sports,759.6,132
+61,Message Up,Furniture,68.73,95
+62,Fight My,Sports,885.03,40
+63,But When,Furniture,35.52,171
+64,Feel Republican,Sports,714.86,65
+65,Young Pick,Home Appliances,458.73,55
+66,Sing Tv,Home Appliances,636.11,38
+67,Will Claim,Sports,834.31,64
+68,Wear Lawyer,Clothing,760.51,46
+69,Nation Team,Electronics,812.39,48
+70,In Operation,Electronics,577.28,33
+71,Them Within,Home Appliances,502.01,179
+72,Kind Speech,Furniture,626.26,162
+73,Within Often,Sports,923.18,159
+74,Less Front,Sports,807.14,182
+75,Check Education,Electronics,985.22,101
+76,Open Smile,Sports,432.11,100
+77,Organization Morning,Clothing,910.38,153
+78,Dream Skill,Furniture,304.55,160
+79,Particularly Force,Furniture,300.66,127
+80,Thus Example,Sports,73.77,140
+81,Someone Party,Home Appliances,818.31,122
+82,Defense Arrive,Home Appliances,989.59,131
+83,Produce Would,Sports,393.55,130
+84,Nearly Or,Home Appliances,290.76,198
+85,Address Measure,Electronics,452.42,81
+86,Not Past,Clothing,653.11,184
+87,Professional Night,Electronics,50.96,159
+88,Form Record,Home Appliances,522.76,46
+89,Opportunity Thousand,Electronics,62.64,32
+90,Collection Everyone,Clothing,666.11,138
+91,No Floor,Home Appliances,959.57,161
+92,Fill Sport,Clothing,941.48,196
+93,Time Member,Furniture,615.0,144
+94,Quality Media,Electronics,104.41,47
+95,Recognize Cost,Home Appliances,604.99,174
+96,Science Because,Electronics,409.21,53
+97,Key Describe,Home Appliances,757.32,176
+98,Democrat Popular,Sports,903.66,149
+99,Church Public,Sports,583.73,114
+100,Down Research,Electronics,264.9,197
+101,Admit Finally,Home Appliances,745.94,69
+102,Fly Simple,Home Appliances,726.34,32
+103,Through Else,Clothing,533.83,101
+104,Positive Line,Electronics,503.53,115
+105,Return Like,Clothing,606.85,130
+106,Let Eye,Furniture,812.19,48
+107,Relationship Wish,Home Appliances,100.19,67
+108,Travel Number,Clothing,910.05,51
+109,Truth Quite,Sports,865.97,149
+110,Against Recognize,Home Appliances,798.47,15
+111,Impact Central,Clothing,898.79,181
+112,Community Father,Electronics,63.09,93
+113,Color Again,Clothing,331.09,193
+114,Evidence Standard,Electronics,50.87,51
+115,Thing Leave,Sports,93.82,135
+116,If Like,Home Appliances,140.02,107
+117,Imagine Maybe,Home Appliances,554.18,47
+118,Born Book,Furniture,105.45,138
+119,You Bring,Furniture,807.65,18
+120,Stay Age,Furniture,485.28,97
+121,Take Participant,Sports,238.23,69
+122,Fish Young,Furniture,529.01,72
+123,Situation Blood,Clothing,331.38,73
+124,Strategy Second,Electronics,574.05,127
+125,Month Spring,Clothing,307.15,43
+126,Rule Staff,Clothing,959.74,194
+127,Author Particular,Furniture,227.75,62
+128,Very Provide,Home Appliances,669.48,196
+129,Always Ability,Home Appliances,142.27,168
+130,Share Win,Electronics,48.75,108
+131,Interview Human,Clothing,457.71,68
+132,Artist Hour,Electronics,951.44,146
+133,Owner Generation,Clothing,697.19,84
+134,Nice Political,Sports,720.77,172
+135,Your Agreement,Home Appliances,850.29,185
+136,Prove See,Home Appliances,197.91,99
+137,American My,Sports,900.15,12
+138,Finally May,Clothing,629.52,86
+139,Brother Defense,Electronics,189.13,125
+140,Respond Such,Electronics,958.52,54
+141,Such Red,Sports,177.39,200
+142,Yet Street,Electronics,434.25,59
+143,Current Single,Electronics,599.76,34
+144,Prove Eight,Electronics,126.13,101
+145,Hour We,Electronics,963.24,170
+146,Senior Seek,Home Appliances,846.98,99
+147,Successful Upon,Clothing,242.84,126
+148,Red Herself,Home Appliances,905.96,74
+149,Phone Partner,Home Appliances,996.41,136
+150,Candidate Travel,Home Appliances,743.02,54
+151,Radio Turn,Electronics,868.62,156
+152,Leg Born,Clothing,540.81,93
+153,Benefit Life,Sports,724.49,185
+154,Purpose Night,Furniture,620.0,152
+155,Agreement Speech,Furniture,641.47,71
+156,Discover Myself,Sports,380.42,94
+157,Son Now,Sports,263.76,68
+158,Artist Attention,Home Appliances,96.52,105
+159,Sea Collection,Clothing,135.74,156
+160,Still Produce,Furniture,725.4,89
+161,More Wind,Electronics,406.19,19
+162,Good Design,Sports,520.68,108
+163,See Sell,Sports,905.68,160
+164,Leg Represent,Furniture,312.81,43
+165,Management Build,Electronics,427.0,129
+166,Appear But,Home Appliances,99.48,189
+167,Gun Past,Electronics,372.42,58
+168,Watch Identify,Sports,515.45,161
+169,Foot Which,Furniture,112.98,189
+170,Trip Artist,Furniture,55.63,187
+171,Effect Administration,Electronics,945.68,124
+172,Organization Follow,Electronics,653.1,30
+173,Final Responsibility,Sports,973.18,162
+174,Morning Professor,Home Appliances,126.25,63
+175,My Good,Sports,198.16,169
+176,Past War,Clothing,688.51,46
+177,Many Take,Home Appliances,987.5,160
+178,Car New,Clothing,965.04,52
+179,Behind Young,Furniture,630.43,187
+180,Throughout Speak,Home Appliances,315.83,104
+181,Within Ago,Electronics,755.15,61
+182,Anything Economy,Clothing,388.31,188
+183,Take Society,Furniture,969.36,27
+184,Daughter News,Electronics,227.91,39
+185,Into Star,Home Appliances,486.07,183
+186,Computer Happy,Sports,282.46,82
+187,Upon Indeed,Sports,469.73,179
+188,Management Herself,Clothing,485.15,111
+189,Order Agree,Electronics,928.63,145
+190,Suffer Animal,Electronics,605.51,129
+191,World Building,Home Appliances,766.11,132
+192,Series Reduce,Home Appliances,741.52,76
+193,Quickly Color,Home Appliances,341.13,76
+194,Member No,Clothing,671.3,176
+195,Boy Particular,Furniture,432.2,138
+196,Ground Remain,Home Appliances,513.3,41
+197,Enter Finally,Furniture,882.09,118
+198,Training Bit,Furniture,505.87,68
+199,Church Sort,Home Appliances,792.93,63
+200,Some It,Home Appliances,109.41,12
+201,Word Soon,Clothing,542.94,69
+202,Party Which,Clothing,47.43,34
+203,Again Meet,Electronics,878.62,146
+204,Save Different,Electronics,150.26,200
+205,Clear Attack,Sports,614.28,15
+206,Thing Wind,Furniture,711.61,86
+207,Within Tree,Clothing,438.94,39
+208,Treatment Growth,Home Appliances,521.39,88
+209,Talk Art,Sports,633.52,56
+210,Same Make,Electronics,57.93,167
+211,Early Miss,Furniture,681.04,164
+212,Body Role,Electronics,350.16,13
+213,Manager Effort,Furniture,203.19,175
+214,Establish Your,Home Appliances,348.26,24
+215,Apply Commercial,Furniture,911.11,21
+216,Perform Artist,Furniture,162.98,112
+217,Share Personal,Furniture,642.1,103
+218,Base Their,Electronics,87.03,145
+219,One Physical,Clothing,818.6,36
+220,Case Everybody,Sports,536.11,108
+221,Moment Increase,Home Appliances,20.37,20
+222,Special We,Clothing,631.73,93
+223,Ability Garden,Clothing,69.83,183
+224,East Drug,Clothing,200.37,145
+225,Hand Catch,Home Appliances,756.12,70
+226,Note Ten,Sports,977.77,138
+227,Discussion Minute,Home Appliances,591.5,162
+228,White Daughter,Home Appliances,462.47,103
+229,Hand Effort,Clothing,129.09,45
+230,Fight Hour,Home Appliances,713.83,73
+231,On Inside,Sports,579.95,26
+232,Third Teacher,Electronics,406.89,50
+233,Small Ever,Sports,782.19,108
+234,Enough Quickly,Electronics,156.78,69
+235,Term Second,Electronics,802.74,26
+236,Point Sister,Electronics,35.7,183
+237,Congress Cause,Sports,544.69,65
+238,Lot Sign,Sports,618.59,98
+239,Close Today,Electronics,209.1,108
+240,Easy Of,Furniture,129.83,79
+241,Adult Would,Sports,672.89,159
+242,Might They,Electronics,447.28,35
+243,Anything Finally,Electronics,703.88,192
+244,Prove Billion,Clothing,71.72,170
+245,Decision Account,Clothing,610.36,183
+246,Age Any,Sports,827.22,38
+247,Join Week,Furniture,213.92,90
+248,Energy Factor,Sports,488.06,124
+249,Seem Fire,Clothing,654.41,169
+250,Staff Benefit,Furniture,976.96,35
+251,Tv Team,Clothing,435.06,96
+252,Campaign Build,Home Appliances,603.39,187
+253,Candidate Open,Electronics,91.15,167
+254,Much Production,Furniture,598.33,171
+255,Grow Note,Furniture,757.67,165
+256,Especially Of,Electronics,63.53,37
+257,Knowledge On,Furniture,238.18,102
+258,Evidence Drop,Sports,641.06,199
+259,At Hope,Sports,899.57,77
+260,Receive Apply,Clothing,145.49,41
+261,Save Attack,Clothing,89.71,177
+262,Daughter Result,Electronics,14.89,125
+263,Way Point,Furniture,609.57,26
+264,Within Society,Sports,624.04,62
+265,Learn Choice,Home Appliances,255.47,111
+266,Buy Simple,Clothing,307.33,105
+267,Away Mrs,Sports,118.54,173
+268,Watch Fact,Clothing,472.89,176
+269,Politics Account,Sports,755.67,148
+270,We Cost,Sports,865.22,57
+271,Trip Performance,Electronics,854.57,44
+272,Boy Quickly,Furniture,941.84,127
+273,Include Person,Electronics,992.25,167
+274,He Current,Electronics,170.19,129
+275,Year Fear,Clothing,703.75,107
+276,Line Meet,Electronics,689.4,186
+277,Practice Wall,Clothing,693.65,135
+278,Mission So,Furniture,505.25,95
+279,Fear East,Home Appliances,728.12,193
+280,Article Physical,Furniture,86.39,198
+281,Support Attorney,Furniture,799.01,103
+282,Think Choice,Furniture,150.91,72
+283,Expert See,Clothing,21.65,79
+284,Executive Explain,Sports,627.27,16
+285,Idea Rest,Furniture,374.07,63
+286,No We,Sports,735.85,160
+287,Trouble Care,Clothing,429.92,177
+288,Apply More,Sports,888.96,28
+289,Mission Half,Home Appliances,819.58,59
+290,Today Computer,Clothing,507.32,94
+291,Picture Letter,Clothing,31.84,168
+292,Say Seem,Furniture,519.44,49
+293,Attack Movie,Sports,355.12,173
+294,Guess Manage,Home Appliances,961.24,47
+295,Which Reflect,Sports,896.94,199
+296,Next Describe,Electronics,570.68,130
+297,Run Land,Electronics,766.64,112
+298,Three Nice,Furniture,296.73,148
+299,Whole Full,Clothing,404.0,32
+300,Democrat Box,Sports,801.44,69
+301,North Suffer,Clothing,98.22,160
+302,Sense Think,Furniture,376.03,120
+303,Sit Along,Clothing,788.99,179
+304,Would Prevent,Home Appliances,594.62,80
+305,Range Subject,Clothing,537.0,190
+306,Paper Imagine,Sports,373.76,176
+307,Accept Myself,Electronics,92.63,127
+308,Something Ground,Home Appliances,460.87,184
+309,Imagine Spend,Furniture,893.76,22
+310,Region Pass,Home Appliances,782.5,180
+311,Why Employee,Home Appliances,441.4,28
+312,Modern Serious,Clothing,897.84,134
+313,Heavy Talk,Furniture,789.22,18
+314,Pay Happen,Clothing,138.84,186
+315,Including Region,Clothing,921.49,173
+316,Positive War,Home Appliances,952.2,146
+317,Science Serious,Clothing,107.92,61
+318,This Weight,Furniture,442.6,26
+319,Remain Case,Clothing,11.96,149
+320,Show Before,Clothing,910.49,13
+321,Natural Old,Clothing,626.67,105
+322,Agree Science,Sports,86.91,145
+323,Image Ten,Home Appliances,705.03,116
+324,Occur Yeah,Clothing,297.36,174
+325,Development Decision,Sports,530.22,31
+326,Even Man,Sports,130.64,91
+327,Country Reality,Home Appliances,259.31,92
+328,From Institution,Electronics,596.68,189
+329,Statement Scientist,Home Appliances,278.41,115
+330,Mouth Free,Furniture,975.73,112
+331,Through Culture,Electronics,275.08,165
+332,True Green,Home Appliances,837.57,136
+333,Suffer Itself,Home Appliances,605.04,50
+334,Sound Group,Sports,601.09,22
+335,Several Buy,Clothing,285.86,33
+336,Share Sure,Electronics,364.85,146
+337,Better Congress,Furniture,443.86,32
+338,Media Evidence,Home Appliances,133.23,195
+339,Stop Executive,Furniture,71.94,38
+340,Example Manager,Electronics,470.12,23
+341,Million Challenge,Home Appliances,920.43,88
+342,Quality Realize,Furniture,269.62,176
+343,Pick Shake,Furniture,485.75,144
+344,Apply Evening,Sports,633.29,141
+345,Turn Sense,Clothing,645.94,200
+346,As Unit,Sports,956.21,24
+347,Garden News,Sports,252.3,133
+348,Any Senior,Furniture,177.61,99
+349,Source Travel,Sports,484.33,192
+350,Mrs Prove,Furniture,493.18,67
+351,Laugh Operation,Sports,862.69,28
+352,Computer Use,Sports,544.43,37
+353,Up Star,Home Appliances,888.16,29
+354,Since Sound,Sports,100.11,52
+355,People Audience,Clothing,852.42,168
+356,One Last,Home Appliances,549.19,171
+357,Make Hour,Electronics,709.54,33
+358,Half Quite,Furniture,572.14,195
+359,Garden Product,Home Appliances,302.28,41
+360,Trouble Thought,Sports,76.14,147
+361,Fish Thing,Clothing,776.36,174
+362,President Show,Home Appliances,876.22,98
+363,Trial Piece,Furniture,792.25,185
+364,Deep Interview,Furniture,162.94,61
+365,Open Check,Electronics,602.09,191
+366,Media Reality,Home Appliances,348.64,131
+367,More Father,Furniture,89.45,172
+368,Administration Himself,Electronics,913.51,101
+369,Possible Position,Sports,528.8,42
+370,Whole Lose,Electronics,465.14,69
+371,Car Mean,Furniture,264.1,66
+372,While Defense,Home Appliances,600.49,45
+373,Leader Nor,Electronics,827.11,192
+374,Data Piece,Furniture,833.65,29
+375,Early Almost,Furniture,230.03,77
+376,Significant The,Electronics,306.32,166
+377,Ahead Result,Electronics,91.01,152
+378,Woman But,Clothing,693.84,149
+379,Sing Boy,Home Appliances,410.05,111
+380,Least Morning,Sports,693.29,100
+381,Lay Name,Clothing,401.39,165
+382,Near Author,Electronics,868.3,25
+383,Region Left,Sports,174.47,131
+384,Relationship Scene,Home Appliances,572.54,100
+385,Bad Control,Home Appliances,605.92,45
+386,Third Perform,Electronics,131.17,141
+387,Pressure Size,Clothing,136.84,12
+388,Table Truth,Home Appliances,808.07,72
+389,Table Myself,Sports,367.07,55
+390,Director Special,Electronics,778.88,131
+391,Popular Set,Furniture,701.5,58
+392,Strong Painting,Electronics,51.53,85
+393,Owner Threat,Sports,13.75,38
+394,Oil Later,Clothing,564.09,26
+395,Discover Government,Furniture,247.67,148
+396,Pull Stuff,Electronics,443.78,56
+397,Class Plant,Furniture,708.8,190
+398,Result Ahead,Clothing,197.17,131
+399,Senior Join,Home Appliances,16.38,178
+400,Somebody Among,Furniture,651.15,197
+401,Top Test,Home Appliances,701.19,177
+402,Kind Short,Clothing,482.78,175
+403,Specific Everybody,Home Appliances,954.3,37
+404,Agent Sign,Home Appliances,602.45,68
+405,Age Modern,Clothing,614.49,48
+406,Dinner Price,Furniture,516.93,193
+407,Pay Food,Clothing,483.8,143
+408,Remember Understand,Sports,598.77,124
+409,Stand Under,Home Appliances,191.08,124
+410,Point Education,Home Appliances,703.28,195
+411,Have Else,Electronics,162.54,115
+412,Area Feeling,Furniture,136.15,37
+413,Eight Concern,Electronics,967.76,167
+414,Growth Look,Clothing,384.11,75
+415,Major List,Sports,526.12,111
+416,Feel Person,Home Appliances,274.8,133
+417,Leave Walk,Furniture,592.93,10
+418,Various Camera,Clothing,271.84,61
+419,Officer Apply,Electronics,220.21,181
+420,Science Response,Sports,940.66,161
+421,Miss Increase,Electronics,401.39,138
+422,Recognize Increase,Furniture,62.77,25
+423,Role Bring,Sports,884.6,159
+424,Relate Down,Furniture,610.68,165
+425,Clearly Development,Clothing,825.58,90
+426,Consumer Little,Clothing,265.25,107
+427,Couple National,Furniture,987.65,58
+428,Prepare Information,Furniture,131.22,56
+429,Miss Prove,Sports,794.01,52
+430,High Hand,Home Appliances,130.49,200
+431,Good American,Sports,943.58,166
+432,General Your,Sports,387.75,38
+433,History Hold,Home Appliances,736.34,69
+434,Skill Take,Furniture,665.83,16
+435,Local Some,Electronics,581.75,115
+436,Not Democrat,Clothing,819.63,23
+437,Large Avoid,Clothing,79.65,133
+438,Former Sea,Furniture,20.74,68
+439,Food Western,Furniture,493.76,137
+440,Hope At,Sports,316.94,134
+441,Sea Lot,Sports,793.07,49
+442,And Debate,Clothing,310.79,58
+443,Follow Follow,Home Appliances,507.4,29
+444,Source Miss,Home Appliances,150.19,112
+445,Ground Different,Electronics,835.44,159
+446,Wonder Determine,Sports,647.55,134
+447,Old Cause,Home Appliances,367.34,181
+448,Son Even,Home Appliances,108.97,84
+449,Person Newspaper,Home Appliances,655.39,177
+450,Itself Feeling,Sports,913.92,128
+451,Recently Forget,Home Appliances,353.49,48
+452,Their Gas,Clothing,137.8,163
+453,Official Reduce,Electronics,642.68,105
+454,Very Student,Electronics,385.46,39
+455,Five Myself,Home Appliances,577.7,187
+456,Page Bank,Clothing,821.93,46
+457,Sell Local,Furniture,801.78,143
+458,Sport Tree,Electronics,393.91,87
+459,Door Now,Electronics,186.43,200
+460,Argue Under,Sports,454.61,44
+461,Drug Smile,Clothing,132.03,185
+462,Billion During,Clothing,400.97,96
+463,Bar Only,Clothing,735.2,179
+464,Individual Move,Furniture,808.22,41
+465,Question Finally,Clothing,831.31,135
+466,Dark Father,Home Appliances,832.17,91
+467,Goal Summer,Clothing,16.72,194
+468,Change Unit,Electronics,630.42,58
+469,To See,Furniture,365.81,167
+470,Peace Few,Clothing,485.16,101
+471,Treatment My,Clothing,174.65,80
+472,Relate Clear,Electronics,598.86,172
+473,Throughout See,Home Appliances,273.77,153
+474,Start Write,Electronics,252.34,99
+475,Coach Participant,Home Appliances,24.19,170
+476,Environment Will,Electronics,829.34,14
+477,Factor Smile,Home Appliances,397.56,143
+478,Yes Stuff,Electronics,596.26,190
+479,Language Wall,Furniture,320.35,31
+480,Include Consider,Sports,113.5,83
+481,Stop During,Furniture,939.03,149
+482,Suffer Top,Furniture,395.33,190
+483,View Collection,Sports,860.24,126
+484,Adult Add,Sports,773.93,63
+485,Place Argue,Home Appliances,85.44,10
+486,Care Security,Electronics,591.41,90
+487,Walk Wish,Furniture,401.36,167
+488,Learn Medical,Furniture,114.15,45
+489,Difficult Size,Home Appliances,486.22,76
+490,Area Whom,Electronics,841.56,19
+491,Stop Fly,Sports,986.61,31
+492,Maybe Together,Electronics,736.95,84
+493,Speech Television,Clothing,339.29,106
+494,With Check,Home Appliances,520.43,81
+495,Where When,Home Appliances,416.86,54
+496,Blood Administration,Electronics,774.22,125
+497,Everything Level,Home Appliances,266.64,49
+498,Stand Hot,Home Appliances,625.87,110
+499,Least Add,Clothing,585.78,36
+500,Wish Seek,Sports,719.97,168
+501,Energy Ability,Sports,463.86,127
+502,Onto Need,Home Appliances,472.74,92
+503,Give Remain,Electronics,586.03,21
+504,History Decision,Sports,924.1,197
+505,Today Hotel,Clothing,323.44,108
+506,Education Movie,Home Appliances,705.39,88
+507,Politics Job,Clothing,953.18,189
+508,American Set,Furniture,443.94,116
+509,Same Last,Electronics,311.7,75
+510,Happy Election,Home Appliances,218.23,45

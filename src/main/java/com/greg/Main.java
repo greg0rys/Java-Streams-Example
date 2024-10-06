@@ -1,36 +1,66 @@
 package com.greg;
-import com.opencsv.CSVReader;
 
-import java.io.FileReader;
+import com.greg.Filtering.Streamer;
+import com.greg.Model.Order;
+import com.greg.Model.Product;
+import com.greg.Model.User;
+import com.greg.Sorting.LoopsVersion;
+import com.greg.Sorting.StreamVersion;
+
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class Main {
     private static final List<String> NAMES = new ArrayList<>();
-    private static final String CSV_PATH = "C:\\Users\\GregShenefelt\\Documents\\Streams_Example\\src\\main\\java\\com\\greg\\dog_and_cat_names_actual.csv";
+
     public static void main(String[] args) throws Exception {
 
-        parseNames();
+        NAMES.addAll(Parser.parseNames());
 
-        NameList streamsVersion = new StreamVersion(NAMES);
-        NameList loopsVersion = new LoopsVersion(NAMES);
-
-        streamsVersion.display();
-        System.out.println();
-        loopsVersion.display();
+        StreamVersion streamsVersion = new StreamVersion(NAMES);
+        LoopsVersion loopsVersion = new LoopsVersion(NAMES);
+        List<Order> orders = Parser.parseOrders();
+        List<Product> products = Parser.parseProdcuts();
+        List<User> users = Parser.parseUsers();
+//
+//        System.out.println();
+//
+//        streamsVersion.printStats(
+//                loopsVersion.getLoopsTime(),
+//                streamsVersion.getStreamsTime()
+//        );
+//
+//
+//        for(User user : users)
+//            System.out.println(user);
+//
+//        System.out.println();
+//
+//        for(Order o : orders)
+//            System.out.println(o);
+//
+//        System.out.println();
+//
+//        for(Product p : products)
+//            System.out.println(p);
+//
+//        for(int i = 0; i <=1; i++)
+//            System.out.println();
+//
+        new Streamer().matchOrders(orders, users);
 
 
     }
 
-    public static  void parseNames() throws Exception
-    {
-        try (CSVReader reader = new CSVReader(new FileReader(CSV_PATH)))
-        {
-            String[] line;
-
-            while ((line = reader.readNext()) != null)
-                NAMES.add(line[0]);
-        }
-    }
+//    public static  void parseNames() throws Exception
+//    {
+//        try (CSVReader reader = new CSVReader(new FileReader(CSV_PATH)))
+//        {
+//            String[] line;
+//
+//            while ((line = reader.readNext()) != null)
+//                NAMES.add(line[0]);
+//        }
+//    }
 }

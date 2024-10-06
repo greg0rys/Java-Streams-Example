@@ -1,4 +1,4 @@
-package com.greg;
+package com.greg.Sorting;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,27 +15,31 @@ public class StreamVersion extends NameList
 
     private void countStream()
     {
+        long startTime = System.currentTimeMillis();
+
         if(NAMES.isEmpty()) return;
 
         // let's count the number of times a name appears in this list.
         nameCounts = NAMES.stream()
                 .collect(Collectors.groupingBy(name -> name, Collectors.counting()));
+
+        sortMap();
+
+        long endTime = System.currentTimeMillis();
+        streamsRunTime = endTime - startTime;
     }
 
+    public long getStreamsTime() { return streamsRunTime; }
 
     @Override
     public void display()
     {
-        if(NAMES.isEmpty())
-        {
-            System.out.println("NO NAMES TO DISPLAY");
-            return;
-        }
+        System.out.println("Using Streams");
         System.out.printf("%-20s %-10s\n", "Name", "Count");
         System.out.println("--------------------------");
-        nameCounts.forEach((name, count) -> System.out.printf("%-20s => %-10d\n", name, count));
-        System.out.println("I have a total of " + (numNames) + " in this List");
-
+        nameCounts.forEach((name, count) -> System.out.printf("%-20s <=> %-10d\n", name, count));
+        System.out.println();
     }
+
 
 }
