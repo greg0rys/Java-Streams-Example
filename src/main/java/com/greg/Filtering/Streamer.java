@@ -63,7 +63,7 @@ public class Streamer
 
         sorted.forEach(product -> {
 
-            count.getAndIncrement(); // be thread safe :)
+            count.getAndIncrement(); // be thread safe :) for s
 
             if(count.get() >= 25)
                 return;
