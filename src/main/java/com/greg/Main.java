@@ -13,13 +13,16 @@ import java.util.List;
 
 public class Main {
     private static final List<String> NAMES = new ArrayList<>();
+    private static final Streamer S = new Streamer();
 
     public static void main(String[] args) throws Exception {
 
         NAMES.addAll(Parser.parseNames());
 
+        // an instance where a loop preforms better than a Stream. e.g. the stream was mad overkill
         StreamVersion streamsVersion = new StreamVersion(NAMES);
         LoopsVersion loopsVersion = new LoopsVersion(NAMES);
+
         List<Order> orders = Parser.parseOrders();
         List<Product> products = Parser.parseProdcuts();
         List<User> users = Parser.parseUsers();
@@ -48,7 +51,9 @@ public class Main {
 //        for(int i = 0; i <=1; i++)
 //            System.out.println();
 //
-        new Streamer().matchOrders(orders, users);
+        S.matchOrders(orders, users);
+        S.orderProducts(products);
+
 
 
     }

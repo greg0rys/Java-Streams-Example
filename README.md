@@ -33,19 +33,12 @@ You read it right **1025** items filtered and sorted in **10 milliseconds** talk
 ```java
     public void matchOrders(List<Order> o, List<User> u)
     {
-        long start,end;
-
-        start = currentTime();
         Map<User, List<Order>> orderedMap = u.stream().collect(
                 Collectors.toMap(
                 user -> user,
                 user -> o.stream().filter(order -> order.getUserID() == user.getUserID()).collect(Collectors.toList())
         ));
-        end = currentTime();
-        filterTime = getTimeDiff(end, start);
-
-
-        start = currentTime();
+        
         orderedMap.forEach((user, userOrders) -> {
             if(userOrders.isEmpty()) return; // if the user doesn't have any orders skip them.
 
@@ -53,13 +46,7 @@ You read it right **1025** items filtered and sorted in **10 milliseconds** talk
             userOrders.forEach(order -> System.out.println(" \tOrder: { Order ID: " + order.getOrderID() + " }"));
             System.out.println();
         });
-        end = currentTime();
-        printTime = getTimeDiff(end, start);
-
-        System.out.println();
-        System.out.println("Filtering Users & Orders => " + filterTime + " milliseconds\n\tNumber of Filtered Items => " + (o.size() + u.size()));
-        System.out.println("Printing Filtered Map => " + printTime + " milliseconds");
-
+        
     }
 ```
 
